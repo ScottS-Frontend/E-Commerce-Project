@@ -93,6 +93,7 @@ li {
 }
 
 header {
+  height: calc(100vh -80px);
   padding: 40px 0;        /* gives spacing but allows natural height */
 }
 
@@ -146,6 +147,9 @@ button:active {
 .header__img--wrapper {
   padding: 20px;
   z-index: 2;
+  height 100%;
+  max-height: 50vh;
+  padding: 20px;
 }
 
 .container {
